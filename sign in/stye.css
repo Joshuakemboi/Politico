@@ -39,24 +39,26 @@ h1{
 .loginbox input[type="text"], input[type="password"]
 {
     border: none;
-    border: bottom 1px; solid #fff;
+    border-bottom: 1px solid #fff;
     background: transparent;
     outline: none;
     height: 40px;
     color: #fff;
     font-size: 16px;
 }
-.loginbox input[type="submit"]
+.loginbox .loginbutton 
 {
     border: none;
     outline: none;
-    height: 40px;
+    width: 100px;
+    height: 60px;
     background: #fb2525;
     color: #fff;
     font-size: 18px;
     border-radius: 20px;
+    text-decoration: none;
 }
-.loginbox input[type="submit"]:hover
+.loginbox .loginbutton:hover
 {
     cursor: pointer;
     background: #ffc107;
